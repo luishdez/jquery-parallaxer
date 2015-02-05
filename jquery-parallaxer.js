@@ -1,7 +1,10 @@
 /**
  * jquery-parallaxer
  */
-$(function() {
++function ($) {
+
+  "use strict";
+
   $window = $(window);
   $('[data-parallaxer]').each(function() {
     var that = $(this);
@@ -10,4 +13,5 @@ $(function() {
       that.css("background-position-y", t + 'px');
     })
   });
-});
+
+}(window.jQuery);
