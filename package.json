@@ -1,0 +1,12 @@
+{
+  "name": "jquery-parallaxer",
+  "description": "Basic utility to create parallax effect on backgrounds a-la bootstrap style",
+  "version": "0.1.0",
+  "main": "./jquery-parallaxer.js",
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "jsdom": "*",
+    "jquery": "*"
+  }
+}
