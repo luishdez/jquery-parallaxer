@@ -5,7 +5,7 @@
 
   "use strict";
 
-  $window = $(window);
+  var $window = $(window);
   $('[data-parallaxer]').each(function() {
     var that = $(this);
     $window.scroll(function() {
